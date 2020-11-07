@@ -37,30 +37,33 @@ body {
   padding: 0 25%;
 }
 
+.content-gambar {
+  min-height: 400px;
+}
+
 h3.identitas {
   font-size: 1.5rem !important;
   font-weight: 400;
 }
 
-.row-custome{
+.row-custome {
   background-color: rgba(54, 54, 54, 0.87);
   color: white;
   font-family: "Ubuntu", sans-serif;
 }
 
-.col-custome{
+.col-custome {
   padding: 5%;
 }
 
-.content-gambar{
-  display: block;
-  margin: 0 auto 3rem;
+.content-gambar {
+  margin-bottom: 2.5rem;
 }
 
 #footer {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)),
     url("../resources/image/footer.png") !important;
-    font-family: "Ubuntu", sans-serif;
+  font-family: "Ubuntu", sans-serif;
 }
 
 .container-footer {
@@ -68,4 +71,26 @@ h3.identitas {
   padding: 25px 0;
   text-align: center;
   box-sizing: border-box;
+}
+
+@media (max-width: 700px) {
+  .navbar-title-custome {
+    padding-left: 1rem !important;
+  }
+
+  .navbar-item-custome {
+    padding-left: 2rem;
+  }
+
+  #content{
+    height: 75vh;
+  }
+
+  .container-content-custome{
+    padding: 50% 12%;    
+  }
+
+  form {
+    margin: auto 0;
+  }
 }
