@@ -73,24 +73,3 @@ h3.identitas {
   box-sizing: border-box;
 }
 
-@media (max-width: 600px) {
-  .navbar-title-custome {
-    padding-left: 1rem !important;
-  }
-
-  .navbar-item-custome {
-    padding-left: 2rem;
-  }
-
-  #content{
-    height: 100vh;
-  }
-
-  .container-content-custome{
-    padding: 50% 12%;    
-  }
-
-  form {
-    margin: auto 0;
-  }
-}
