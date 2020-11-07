@@ -11,7 +11,7 @@ function validasi() {
     }else if(username !== nim && password !== pwd){
         alert("Login gagal, username dan password tidak ada");
         document.querySelector(".username").focus();
-    }else if(username === "" && password === ""){
+    }else if(username === "" || password === ""){
         alert("Login gagal, username dan password tidak boleh kosong");
         document.querySelector(".username").focus();
     }

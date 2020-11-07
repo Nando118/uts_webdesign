@@ -58,17 +58,24 @@
     </header>
 
     <div id="content">        
-        <div class="container container-content-custome">
-            <form action="" method="POST">
-                <div class="form-group">
+        <div class="container text-center">
+            <form action="" method="POST" class="form-signin form-heigh">
+                <!-- <div class="form-group w-50">
                     <label for="formGroupExampleInput" class="text-white">Username</label>
                     <input type="text" class="form-control username" id="formGroupExampleInput" placeholder="Masukan NIM Anda : 20181000066">
                 </div>
-                <div class="form-group">
+                <div class="form-group w-50">
                     <label for="exampleInputPassword1" class="text-white">Password</label>
                     <input type="password" class="form-control password" id="exampleInputPassword1" placeholder="Password : admin">
+                </div> -->
+                <div class="w-50 mx-auto form-input">
+                  <label for="inputText" class="text-white">Username</label>
+                  <input type="text" id="inputText" class="form-control username" placeholder="Username" required autofocus>
+                  <br>
+                  <label for="inputPassword" class="text-white">Password</label>
+                  <input type="password" id="inputPassword" class="form-control password" placeholder="Password" required>
                 </div>
-                <button type="reset" class="btn btn-primary" onclick="validasi()">Login</button>
+                <button type="reset" class="btn btn-dark btn-lg btn-login" onclick="validasi()">Login</button>
             </form>
         </div>
     </div>
