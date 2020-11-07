@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#header {
+  font-family: "Ubuntu", sans-serif;
+}
+
+.navbar-title-custome {
+  height: 100px;
+  padding-bottom: 25px;
+  padding-left: 4.5rem;
+  box-sizing: border-box;
+  font-weight: 700;
+}
+
+.title-brand {
+  color: limegreen;
+}
+
+.navbar-item-custome {
+  margin-top: -20px;
+  padding-left: 5rem;
+  border-top: 2px solid darkslategray;
+  box-sizing: border-box;
+  font-weight: 500;
+}
+
+#content {
+  padding: 10% 0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.65)),
+    url("../resources/image/ini.png");
+}
+
+.container-content-custome {
+  padding: 0 25%;
+}
+
+h3.identitas {
+  font-size: 1.5rem !important;
+  font-weight: 400;
+}
+
+.row-custome{
+  background-color: rgba(54, 54, 54, 0.87);
+  color: white;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.col-custome{
+  padding: 5%;
+}
+
+.content-gambar{
+  display: block;
+  margin: 0 auto 3rem;
+}
+
+#footer {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)),
+    url("../resources/image/footer.png") !important;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.container-footer {
+  height: 70px;
+  padding: 25px 0;
+  text-align: center;
+  box-sizing: border-box;
+}
