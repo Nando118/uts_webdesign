@@ -73,7 +73,7 @@ h3.identitas {
   box-sizing: border-box;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 600px) {
   .navbar-title-custome {
     padding-left: 1rem !important;
   }
