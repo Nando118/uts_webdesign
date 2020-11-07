@@ -7,7 +7,7 @@ function validasi() {
 
     if(username === nim && password === pwd){
         alert("Login berhasil");
-        document.location.href = 'index.html';        
+        document.location.href = 'content.html';        
     }else if(username !== nim && password !== pwd){
         alert("Login gagal, username dan password tidak ada");
         document.querySelector(".username").focus();

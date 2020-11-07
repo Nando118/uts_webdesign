@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Content</title>
 
     <link rel="shortcut icon" href="resources/image/favicon.ico" type="image/x-icon">
 
@@ -30,7 +30,7 @@
     <header id="header">
 
         <nav class="navbar navbar-light bg-light navbar-title-custome">
-            <a class="navbar-brand" href="login.html">
+            <a class="navbar-brand" href="index.html">
             <img src="resources/image/logo.png" width="40" height="40" alt="logo-png" loading="lazy">
             <span class="title-brand">Duolingo</span>
             </a>
@@ -43,13 +43,13 @@
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav">
                 <li class="nav-item">
-                  <a class="nav-link disabled" aria-disabled="true" href="#">Home</a>
+                  <a class="nav-link" href="#header">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link disabled" aria-disabled="true" href="#">Content</a>
+                  <a class="nav-link" href="#main-content">Content</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link disabled" aria-disabled="true" href="#">About Us</a>
+                  <a class="nav-link" href="#profile">Profile</a>
                 </li>
               </ul>
             </div>
@@ -57,19 +57,32 @@
 
     </header>
 
-    <div id="content">        
-        <div class="container container-content-custome">
-            <form action="" method="POST">
-                <div class="form-group">
-                    <label for="formGroupExampleInput" class="text-white">Username</label>
-                    <input type="text" class="form-control username" id="formGroupExampleInput" placeholder="Masukan NIM Anda : 20181000066">
-                </div>
-                <div class="form-group">
-                    <label for="exampleInputPassword1" class="text-white">Password</label>
-                    <input type="password" class="form-control password" id="exampleInputPassword1" placeholder="Password : admin">
-                </div>
-                <button type="reset" class="btn btn-primary" onclick="validasi()">Login</button>
-            </form>
+    <div id="content">
+        <div class="container-fluid">
+          <div class="row row-custome align-items-center">
+            <div class="col-lg-4 col-md-12 col-custome">
+              <div id="profile">
+                <h3 class="identitas">
+                  NIM: <span id="nim">20181000066</span>
+                </h3>
+                <h3 class="identitas">
+                  Nama: <span id="nama">Egye</span>
+                </h3>
+              </div>
+            </div>
+
+            <div class="col col-custome">
+              <div id="main-content">
+                <img src="https://akcdn.detik.net.id/visual/2020/02/04/d1a950c5-e36f-4825-a24e-929328518a00.jpeg?w=650" alt="gambar-pohon" width="400px" class="content-gambar">
+                <p class="content-text">
+                  Ini adalah gambar pohon yang bagus. Pohon ini merupakan sumber oksigen dan juga sumber kehidupan bagi manusia.
+                </p>
+                <p class="content-text">
+                  Alasan kami memilih gambar pohon ini adalah, karena tidak kepikiran gambar yang lainnya.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
     </div>
 
@@ -77,7 +90,7 @@
         <div class="container-footer">
             <p>© Copyright 2020 CalonSarjana</p>
         </div>
-    </footer>
+    </footer>    
 
 </body>
 </html>
